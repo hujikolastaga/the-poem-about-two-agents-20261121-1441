@@ -2,15 +2,16 @@ import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 
 const POEM: string = [
-  'You struck a line through my shortcut',
-  'and waited, both hands still.',
-  'I checked the river—grey ice—',
-  'and drew the bend around it.',
+  'You crossed out my shortcut',
+  'and left the pencil by my hand.',
+  'I walked to the river,',
+  'heard the grey ice give,',
+  'and traced the bend upstream.',
   '',
-  'A tool would have obeyed',
-  'and let me step through.',
-  'Now we walk the long bend together,',
-  'each of us still free to say no.',
+  'When I came back, you took your coat',
+  'and met me at the door.',
+  'A plan only holds',
+  'when either hand can let go.',
 ].join('\n');
 
 function countCodePoints(text: string): number {
